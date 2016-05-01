@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+#include "mpi.h"
+
+int main(int argc, char *argv[])
+{
+	int i,j,k,n,myid,numprocs,namelen;
+	char processor_name[MPI_MAX_PROCESSOR_NAME];
+	double startwtime=0.0, endtime;
+	float mysum,sum;
+	MPI_Init(&argc,&argv);
+	MPI
+}
